@@ -194,7 +194,7 @@ kInit → kFirstObserved → kSecondObserved → kIdentified
 
 ### 5.1 总体对比表
 
-| 维度 | sp_vision_25 | sp_vision_hero_18（本仓库） |
+| 维度 | sp_vision_25 | sp_vision_hero_26（本仓库） |
 |------|-------------|------------------------------|
 | 面向兵种 | 步兵/通用（CAN 板 `CBoard`） | **英雄**（串口云台 `Gimbal`，`start_sp_vision.sh` 跑 `standard_mpc`） |
 | EKF 状态维数 | **11**（`x vx y vy z vz a w r l h`） | **13**（增加 `h0/h1/h2` 三块前哨站板高度） |
