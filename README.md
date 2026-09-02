@@ -1,4 +1,4 @@
-# sp_vision_hero_26 — 前哨站预测与选板逻辑说明
+# hero_vision_26 — 前哨站预测与选板逻辑说明
 
 > 本文档**完全基于代码**整理，聚焦于「前哨站（Outpost）预测」与「选板（瞄准点选择）」两条核心逻辑，并在文末与上游仓库 [TongjiSuperPower/sp_vision_25](https://github.com/TongjiSuperPower/sp_vision_25) 做了逐项对比。
 
@@ -194,7 +194,7 @@ kInit → kFirstObserved → kSecondObserved → kIdentified
 
 ### 5.1 总体对比表
 
-| 维度 | sp_vision_25 | sp_vision_hero_26（本仓库） |
+| 维度 | sp_vision_25 | hero_vision_26（本仓库） |
 |------|-------------|------------------------------|
 | 面向兵种 | 步兵/通用（CAN 板 `CBoard`） | **英雄**（串口云台 `Gimbal`，`start_sp_vision.sh` 跑 `standard_mpc`） |
 | EKF 状态维数 | **11**（`x vx y vy z vz a w r l h`） | **13**（增加 `h0/h1/h2` 三块前哨站板高度） |
