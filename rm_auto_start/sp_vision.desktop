@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=SP Vision
+Exec=gnome-terminal --working-directory=$HOME/sp_vision_25_for_sentry -- bash -c "./build/auto_aim_debug_mpc configs/sentry.yaml; bash"
